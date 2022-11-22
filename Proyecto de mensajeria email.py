@@ -5,11 +5,11 @@ import smtplib
 
 email_emisor = 'en17la@gmail.com'
 email_contrasena = 'piscdattqdcmojci'
-#prueba con un correo
-email_receptor = 'en17la@gmail.com'
+#prueba con mas de dos correos
+email_receptor = 'yuliysandrita123@gmail.com', 'contrekalo@gmail.com', 'en17la@gmail.com', 'forero0801laura@gmail.com', 'minnielaura27@gmail.com'
 
 cuerpo = """
-Si se pudo Profesor Hugo Ruiz \n ATT:Laura Lorena Forero Romero
+Si se pudo Profesor Hugo Ruiz PRUEBA 2 \n ATT:Laura Lorena Forero Romero
 """
 
 em = EmailMessage()
