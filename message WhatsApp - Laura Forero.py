@@ -12,3 +12,6 @@ from_='whatsapp:+14155238886',
 body='Viva millos',      
 to='whatsapp:+573043576566' 
 )
+
+#Por ultimo imprimimos el mensaje para que sea enviado
+print(message.sid)
