@@ -12,3 +12,6 @@ message = client.messages.create(
     from_=keys.twilio_number,
     to=keys.target_number
 )
+
+#Imprimimos para que el mensaje sea envia
+print(message.body)
